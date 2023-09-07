@@ -7,12 +7,14 @@
     
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     
 
 </head>
-<body >
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+<body class="mt-5">
+    <!-- DIRECT COPY FROM DOCU NAVBAR -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,9 +36,61 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
 
-    <h1 class="display-1 text-center">Ivan Gonzales</h1>
+
+    <nav class="navbar fixed-top  bg-dark navbar-dark navbar-expand-md">
+      <div class="container-xxl ">
+
+        <a href="#" class="navbar-brand fw-bold">Ivan Gonzales</a>
+
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <a class="navbar-toggler-icon"></a>
+
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+              <a href="#bottom" class="nav-link btn btn-light text-dark">YASSsSS</a>
+            </li>
+            <li class="nav-item d-md-none">
+              <a href="#" class="nav-link">smoll</a>
+            </li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </nav>
+
+
+
+    <div class="bg-black vh-100 row align-items-center text-center justify-content-center vidtop-content herobg">
+  
+      <div>
+        <h1 class="display-1 text-light absol">Ivan Gonzales</h1>
+        <p class="lead text-light mb-5 pb-5">My website</p>
+        <div>
+          <a href="#" class="bi bi-chevron-down text-white btn btn-outline-primary"> Learn More</a>
+        </div>
+      </div>
+      
+    </div>
+
+
+  
+    
     <h1>Test</h1>
 
     <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde?</p>
@@ -71,14 +125,16 @@
         </div>
 
 
+      
         <div class="row justify-content-between">
             <div class="col-sm-4 col-md-6 bg-primary p-5">HAHAHAHA</div>
             <div class="col-sm-4 bg-primary p-5">HAHAHAHA</div>
-            <div class="col-sm-4 bg-primary p-5">HAHAHAHA</div>
+            <div class="col-sm-4 bg-primary p-5" id="bottom">HAHAHAHA</div>
         </div>
     </div>
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
